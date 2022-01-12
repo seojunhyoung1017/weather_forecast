@@ -39,3 +39,29 @@
 <p align="center">
     (Figure B)
 </p>
+
+- What does the system provide for the users and how users can operate your system?
+    1. This project uses Jupyter Notebook as a user interface, so, to operate the system users just need to click the cells consecutively. Users need to input the city name to the system to query the API the first time, if the data of that city is already stored in a cloud database, the system will not call the API, instead, the system will load the data from the Firebase. Then, the system will visualize data, metadata, extracted features, and prediction results for the users. Moreover, the system will plot the line chart of the historical temperature, and a comparison between the test set and prediction from the training set will be also plotted as a line chart.
+
+    2. Examples of visualized data that can be obtained by users are as follows, the examples are presuming that users input the city name as Los Angeles.
+
+    3. Figure C is showing the raw data that users can obtain.
+    
+
+<p align="center">
+  <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture3.png">
+</p>
+<p align="center">
+    (Figure C)
+</p>
+
+    4. Figure D is showing the extracted features of the data that users can obtain.
+
+
+<p align="center">
+  <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture4.png">
+</p>
+<p align="center">
+    (Figure D)
+</p>
+
