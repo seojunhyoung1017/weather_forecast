@@ -1,7 +1,7 @@
 # Managing ML data and models for weather forecast
 
     Description
-- Why weather forecasting?
+    - Why weather forecasting?
     1. In general, domain experts define climate as a ‘complex system’. While there are a lot of interpretations about it, we can consider ‘complex’ to be ‘unsolvable in analytical ways’. Therefore, it is true that machine learning is not yet used in weather forecasting.
 
     2. However, if we can solve this problem and be able to establish machine learning models to predict the weather, there will be a huge benefit from it. Currently, numerous satellites and observation equipment are used for weather forecasting, and if accurate weather forecasting is possible through machine learning modeling, a lot of cost reduction and convenience can be obtained.
@@ -97,7 +97,7 @@
     <p align="center">
     (Figure H)
     </p>
-    hi
+    
     System architecture, components
 - Figure I is showing the system architecture and components as a diagram bellows:
     <p align="center">
