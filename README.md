@@ -17,3 +17,4 @@
 
     - As users operate the system, more historical weather data of different cities will be stored in Firebase, and the system can simply load the data from Firebase for analysis without calling API. Figure A is showing the screenshot of the Firebase database as bellows:
 
+![Figure A] (/images/picture1.png)
