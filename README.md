@@ -20,3 +20,6 @@
 <p align="center">
   <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture1.png">
 </p>
+<p align="center">
+    (Figure A)
+</p>
