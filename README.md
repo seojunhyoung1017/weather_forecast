@@ -1,28 +1,28 @@
 # Managing ML data and models for weather forecast
 
     Description
-    - Why weather forecasting?
-        1. In general, domain experts define climate as a ‘complex system’. While there are a lot of interpretations about it, we can consider ‘complex’ to be ‘unsolvable in analytical ways’. Therefore, it is true that machine learning is not yet used in weather forecasting.
+- Why weather forecasting?
+    1. In general, domain experts define climate as a ‘complex system’. While there are a lot of interpretations about it, we can consider ‘complex’ to be ‘unsolvable in analytical ways’. Therefore, it is true that machine learning is not yet used in weather forecasting.
 
-        2. However, if we can solve this problem and be able to establish machine learning models to predict the weather, there will be a huge benefit from it. Currently, numerous satellites and observation equipment are used for weather forecasting, and if accurate weather forecasting is possible through machine learning modeling, a lot of cost reduction and convenience can be obtained.
+    2. However, if we can solve this problem and be able to establish machine learning models to predict the weather, there will be a huge benefit from it. Currently, numerous satellites and observation equipment are used for weather forecasting, and if accurate weather forecasting is possible through machine learning modeling, a lot of cost reduction and convenience can be obtained.
 
-        3. While this is highly challenging, this project is aimed to find out if there is any single possibility of applicability of machine learning in the weather forecast.
+    3. While this is highly challenging, this project is aimed to find out if there is any single possibility of applicability of machine learning in the weather forecast.
 
-    - How to extract and store the historical weather data?
-        1. This project will use the world weather online API to extract historical data, which provides historical data of temperature, weather description, wind speed, etc. from July 2008 to a recent date. 
+- How to extract and store the historical weather data?
+    1. This project will use the world weather online API to extract historical data, which provides historical data of temperature, weather description, wind speed, etc. from July 2008 to a recent date. 
 
-        2. The system will query the API to call the historical data from July 2008 to a recent date, and the system will extract features in raw data and save them in the system’s data frame. Maximum, minimum, and average temperatures will be extracted from raw data and stored in the data frame. 
+    2. The system will query the API to call the historical data from July 2008 to a recent date, and the system will extract features in raw data and save them in the system’s data frame. Maximum, minimum, and average temperatures will be extracted from raw data and stored in the data frame. 
 
-        3. Since it is highly time-consuming to query API multiple times to use a system, the system will upload the extracted features of data into the Firebase cloud database. In Firebase, features will be classified by city name and stored in each city category.
+    3. Since it is highly time-consuming to query API multiple times to use a system, the system will upload the extracted features of data into the Firebase cloud database. In Firebase, features will be classified by city name and stored in each city category.
 
-        4. As users operate the system, more historical weather data of different cities will be stored in Firebase, and the system can simply load the data from Firebase for analysis without calling API. Figure A is showing the screenshot of the Firebase database as bellows:
+    4. As users operate the system, more historical weather data of different cities will be stored in Firebase, and the system can simply load the data from Firebase for analysis without calling API. Figure A is showing the screenshot of the Firebase database as bellows:
 
-        <p align="center">
-        <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture1.png">
-        </p>
-    <p align="center">
-    (Figure A)
-    </p>
+<p align="center">
+<img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture1.png">
+</p>
+<p align="center">
+(Figure A)
+</p>
 
 - Which machine learning model will be applied?
     1. ARIMA model is a powerful algorithm especially when you aim to predict future values based on past values in time-series data. Since this project is handling time-series data, the ARIMA model will be applied for the prediction of future temperature.
@@ -98,7 +98,7 @@
     (Figure H)
     </p>
     
-    System architecture, components
+        System architecture, components
 - Figure I is showing the system architecture and components as a diagram bellows:
     <p align="center">
     <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture9.png">
@@ -109,7 +109,7 @@
 
 - The users can explore the user interface which is connected to API, cloud database, and machine learning models. And user interface can query the API and get an output, train the model and get a prediction output, and store or load the data from cloud database as explained above.
 
-    Learning experiences
+        Learning experiences
 - Since this project was my first project to handle machine learning models and the data. It was challenging for me to establish the machine learning model and get a prediction output. But, after finishing this project, now I think I can handle more advanced machine learning projects based on real-life problems because I learned a system flow of the machine learning analysis.
 
 - The project aimed to provide an intuitive interface for users who have no computer science background. Therefore, I should consider more about users and think about how I can provide the best user interface for users’ convenience. So, the user interface was configured to visualize all the results by the users only entering the city name. In the real world, most users do not know about the computer language, so this was very reasonable, and I got a lesson on how to think from the user’s perspective.
