@@ -47,21 +47,20 @@
 
     3. Figure C is showing the raw data that users can obtain.
     
-
-<p align="center">
-  <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture3.png">
-</p>
-<p align="center">
+    <p align="center">
+    <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture3.png">
+    </p>
+    <p align="center">
     (Figure C)
-</p>
+    </p>
 
     4. Figure D is showing the extracted features of the data that users can obtain.
 
 
-<p align="center">
-  <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture4.png">
-</p>
-<p align="center">
+    <p align="center">
+    <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture4.png">
+    </p>
+    <p align="center">
     (Figure D)
-</p>
+    </p>
 
