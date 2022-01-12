@@ -56,7 +56,6 @@
 
     4. Figure D is showing the extracted features of the data that users can obtain.
 
-
     <p align="center">
     <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture4.png">
     </p>
@@ -64,3 +63,55 @@
     (Figure D)
     </p>
 
+    5. Figure E is showing the metadata of the data that users can obtain.
+    
+    <p align="center">
+    <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture5.png">
+    </p>
+    <p align="center">
+    (Figure E)
+    </p>
+    
+    6. Figure F is showing the line chart of temperature that users can obtain.
+    
+     <p align="center">
+    <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture6.png">
+    </p>
+    <p align="center">
+    (Figure F)
+    </p>
+    
+    7. Figure G is showing the line chart of comparison between the test set and prediction using the training set. This example shows the model is not fitting well with the data; however, users can add seasonality parameters in their model to get a well-fitting result; however, my local machine was not able to handle the high-performance computing so that I am noticing that this example is not the best example. If users use a high-computing power machine, they can get the best model for their data.
+    
+    <p align="center">
+    <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture7.png">
+    </p>
+    <p align="center">
+    (Figure G)
+    </p>
+    
+    8. Figure H is showing the prediction result that can be obtained by users.
+    <p align="center">
+    <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture8.png">
+    </p>
+    <p align="center">
+    (Figure H)
+    </p>
+    
+        System architecture, components
+- Figure I is showing the system architecture and components as a diagram bellows:
+    <p align="center">
+    <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture9.png">
+    </p>
+    <p align="center">
+    (Figure I)
+    </p>
+
+- The users can explore the user interface which is connected to API, cloud database, and machine learning models. And user interface can query the API and get an output, train the model and get a prediction output, and store or load the data from cloud database as explained above.
+
+        Learning experiences
+- Since this project was my first project to handle machine learning models and the data. It was challenging for me to establish the machine learning model and get a prediction output. But, after finishing this project, now I think I can handle more advanced machine learning projects based on real-life problems because I learned a system flow of the machine learning analysis.
+
+- The project aimed to provide an intuitive interface for users who have no computer science background. Therefore, I should consider more about users and think about how I can provide the best user interface for users’ convenience. So, the user interface was configured to visualize all the results by the users only entering the city name. In the real world, most users do not know about the computer language, so this was very reasonable, and I got a lesson on how to think from the user’s perspective.
+
+- Through the project, I gained a lot of skills to carry out the data science project by myself. Firstly, I have learned how to establish a database efficiently to analyze the data. Secondly, I have learned how to build machine learning models for the data and perform the prediction. Lastly, I have learned how to make a pragmatic code to manage the data. After many trials and errors, I came to think about how to gain the results in the shortest time, finally, I gained knowledge about how to construct the optimal code and establish the system architectures.
