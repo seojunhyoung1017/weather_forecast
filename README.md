@@ -97,8 +97,8 @@
     <p align="center">
     (Figure H)
     </p>
-    
-        System architecture, components
+    hi
+    System architecture, components
 - Figure I is showing the system architecture and components as a diagram bellows:
     <p align="center">
     <img src="https://github.com/seojunhyoung1017/weather_forecast/blob/main/images/Picture9.png">
@@ -109,7 +109,7 @@
 
 - The users can explore the user interface which is connected to API, cloud database, and machine learning models. And user interface can query the API and get an output, train the model and get a prediction output, and store or load the data from cloud database as explained above.
 
-        Learning experiences
+    Learning experiences
 - Since this project was my first project to handle machine learning models and the data. It was challenging for me to establish the machine learning model and get a prediction output. But, after finishing this project, now I think I can handle more advanced machine learning projects based on real-life problems because I learned a system flow of the machine learning analysis.
 
 - The project aimed to provide an intuitive interface for users who have no computer science background. Therefore, I should consider more about users and think about how I can provide the best user interface for users’ convenience. So, the user interface was configured to visualize all the results by the users only entering the city name. In the real world, most users do not know about the computer language, so this was very reasonable, and I got a lesson on how to think from the user’s perspective.
